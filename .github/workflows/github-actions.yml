@@ -10,4 +10,4 @@ jobs:
           node-version: '14'
       - run: npm install
       - run: npm build-storybook
-      - run: npx chromatic --project-token={{env.CHROMATIC_TOKEN}}
+      - run: npx chromatic --project-token=${{ env.CHROMATIC_TOKEN }}
