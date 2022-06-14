@@ -1,4 +1,4 @@
-name: learn-github-actions
+name: chormatic-actions
 on: [push]
 jobs:
   check-bats-version:
